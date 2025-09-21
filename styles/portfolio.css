@@ -214,3 +214,35 @@ main section{
 .focus-img img{
     border-radius: 48px;
 }
+
+/* form styles */
+
+.form{
+    padding: 71px 0px;
+    display: flex;
+    gap: 230px;
+}
+.form-column{
+    width: 50%;
+}
+.form input[type="text"],form input[type="email"],form textarea{
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 497px;
+    padding: 20px 32px;
+    margin-bottom: 19px;
+    border: #D6DDED;
+}
+.form-column{
+    display: flex;
+}
+.form-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+.focus-btn{
+    width: 497px;
+}
