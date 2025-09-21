@@ -63,3 +63,38 @@ header{
     text-align: top center;
     padding-bottom: 200px;
 }
+
+/* Action Styles */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 0;
+}
+.action-content{
+    max-width: 517px;
+    gap: 23px 0;
+    text-align: top left;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-subtitle{
+    font-size: 24px;
+    font-weight: 400;
+    color: #2524329c;
+}
+.action-profile-pic{
+    width: 403px;
+    border-radius: 48px;
+}
+
+/* main styles */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
