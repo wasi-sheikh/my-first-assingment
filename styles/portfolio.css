@@ -246,3 +246,42 @@ main section{
 .focus-btn{
     width: 497px;
 }
+
+/* footer styles */
+
+footer{
+    text-align: center;
+    background-color: white;
+    gap: 8px;
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 0;
+    margin-top: 100px;
+}
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    margin-top: 0;
+
+}
+.footer-nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+.footer-title h3{
+    margin: 0;
+}
+.footer-nav li a{
+    text-decoration: none;
+}
+.footer-color{
+    color: #8987A1;
+}
