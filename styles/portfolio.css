@@ -12,7 +12,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+.secondry-bg{
+    background-color: #7b47ff3a;
+}
 
 .btn-primary{
     background-color: #4E47FF;
@@ -27,6 +29,10 @@
 } 
 .btn-primary:hover{
     background-color: darkviolet;
+}
+
+.full-background{
+    background-color: #4d47ff1a;
 }
 
 /* Nav styles */
@@ -98,3 +104,36 @@ main{
     margin: 0 auto;
 }
 
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* Productive-user styles */
+
+.productive-user{
+    border-radius: 24px;
+    text-align: center;
+    padding: 50px 140px;
+}
+.centered-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0;
+}
+.user-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+.item-subtitle{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #2524329c;
+}
