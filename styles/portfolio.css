@@ -188,3 +188,29 @@ main section{
     font-weight: 400;
     color: #1E1E1E;
 }
+
+/* focus styles */
+
+.focus{
+    text-align: center;
+    padding: 70px 150px;
+    border-radius: 14px;
+    background-color: #ffffff;
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.focus-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0000005d;
+}
+.focus-btn{
+    margin-bottom: 20px;
+}
+.focus-img img{
+    border-radius: 48px;
+}
